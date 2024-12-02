@@ -32,5 +32,5 @@ interface Solver {
         return getLines(resource)
     }
 
-    fun solve(day: Int, part: Int, example: Boolean): Unit
+    fun solve(part: Int, example: Boolean): Unit
 }

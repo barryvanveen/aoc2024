@@ -1,8 +1,8 @@
 package org.aoc
 
 class Day1: Solver  {
-    override fun solve(day: Int, part: Int, example: Boolean): Unit {
-        val input = readInput(day, example)
+    override fun solve(part: Int, example: Boolean): Unit {
+        val input = readInput(1, example)
 
         val left: MutableList<Int> = mutableListOf()
         val right: MutableList<Int> = mutableListOf()
