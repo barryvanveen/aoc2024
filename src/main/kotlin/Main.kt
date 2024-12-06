@@ -13,6 +13,9 @@ fun main() {
 //    val solver: Solver = Day4()
 //    solver.solve(2, false)
 
-    val solver: Solver = Day5()
+//    val solver: Solver = Day5()
+//    solver.solve(2, false)
+
+    val solver: Solver = Day6()
     solver.solve(2, false)
 }
